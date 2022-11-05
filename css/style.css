@@ -1,0 +1,325 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: font-family: 'Raleway', sans-serif;
+}
+/* Start Header Section*/
+
+.header{
+  background:#3E5D99;
+  
+}
+.header::after {
+  content:'';
+  clear:both;
+  display:block;
+}
+.container{
+  width:75%;
+  margin: auto;
+  max-width: 1000px;
+  
+}
+.logo-area{
+  width: 30%;
+  float: left; 
+}
+.logo-area img{
+  width: 180px;
+  margin-top: 2px;
+}
+
+.login-area{
+  width: 70%;
+  float: left;
+  color: #fff;
+}
+.login-area form{
+  float: right;
+  padding-bottom: 10px;
+}
+.login-area label,input{
+  display: block;
+  margin-bottom: 4px;
+  
+}
+.login-area label{
+  font-size: 12px;
+  padding: 8px;
+  margin-right: 20px;
+}
+.login-area input{
+  margin-right: 10px;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login{
+  float: left;
+  margin-right: 1px;
+
+}
+
+
+.password a{
+  color: #fff;
+  text-decoration: none;
+}
+.login input{
+  margin-right: 0;
+  
+}
+#email, #password{
+  border: 2px solid rgb(74, 62, 62);
+  font-size: 14px;
+  font-weight: 300;
+  padding: 2px 5px;
+
+}
+
+.password a:hover{
+  color: rgb(242, 0, 0);
+  background-color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+.login-area input[type="submit"]{
+  margin-top: 36px;
+  border:2px solid #000;
+}
+
+.login-area input:hover[type="submit"]{
+  color: green;
+  border:2px solid rgb(216, 9, 9);
+  background:#000;
+}
+/* End Header SectionI*/
+
+/* Start Sign Up Section*/
+.left-area{
+    width:55%;
+    float: left;
+  }
+.right-area{
+    width:45%;
+    float: left;
+  }
+.signup-area{
+  padding: 10px 0 30px;
+  max-width: 1000px;
+  background: linear-gradient(rgba(255, 255, 255, 0.619), rgb(183, 183, 183));
+
+}
+
+.signup-area::after{
+  content:'';
+  clear: both;
+  display:block;
+ 
+}
+.left-area p{
+  font-size: 20px;
+  color:#4c586f;
+  font-weight: 600;
+  width: 90%;
+}
+.left-area img{
+  width: 100%;
+  margin: 50px 20px;
+}
+.right-area h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin: 15px 0;
+  color: rgb(56, 56, 80);
+}
+.right-area h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 8px 0;
+  font-weight:400;
+
+}
+.right-area input[type="text"],
+.right-area input[type="password"] {
+  font-size: 14px;
+  width: 100%;
+  color:#3E5D99;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin:13px 0;
+}
+.full-name{
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.first-name{
+  width:45%;
+  float: left;
+  margin-right: 8%;
+}
+.surname{
+  width:45%;
+  float: left;
+}
+
+.birth-date select{
+  background:rgb(163, 163, 198);
+  border:1px solid navy;
+  padding:5px;
+  float: left;
+  font-size: 12px;
+}
+.birth-date{
+  float: left;
+  width:50%;
+  padding: 0px;
+  margin: 0;
+  
+}
+.birth-link{
+  margin: 15px 15px;
+}
+.birth-link a{
+  color:red;
+  font-size: 16px;
+  text-decoration: none;
+  width: 45px;
+  padding: 0px;
+  margin: 0;
+  line-height: 1;
+  
+}
+.birth-link a:hover{
+  text-decoration: underline;
+  color:rgb(255, 255, 255);
+  background-color: rgb(18, 1, 255);
+}
+.gender::after{
+  content:'';
+  clear: both;
+  display: block;
+}
+
+.femalea{
+  width: 60px;
+  background: rgb(109, 109, 240);
+  float:left;
+}
+.malea{
+  width: 60px;
+  background: rgb(66, 66, 232);
+  float:left;
+}
+#female{
+  float:left;
+}
+#male{
+  float:left;
+}
+.text-box{
+  width: 80%;
+  margin: 5px 0px;
+  display: block;
+  
+}
+.text-box a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.text-box a:hover{
+  text-decoration: underline;
+  font-size: 30px;
+  color: rgb(197, 9, 9);
+}
+.btn{
+  margin-bottom: 12px;
+}
+.btn input{
+  background: #518a3e;
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: serif;
+  box-shadow: inset 5px 1px 3px #000000;
+  padding: 5px 20px;
+  border:2px solid green;
+  border-radius: 15px;
+}
+.btn input:hover{
+background: navy;
+color: aqua;
+}
+
+.business a{
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+.business a:hover{
+  font-size: 20px;
+  text-decoration:underline;
+  color: dodgerblue;
+}
+/*Start footer Section */
+.footer-area{
+  padding: 30px 0;
+}
+.middle ul{
+  margin: 0;
+  padding: 0;
+}
+.top ul{
+  margin: 0;
+  padding: 0;
+}
+.footer-area ul li{
+  list-style: none;
+  display: inline;
+  margin-right: 5px;
+}
+.top ul li a{
+  color: rgb(21, 20, 20);
+  margin-right: 5px;
+}
+
+.footer-area ul li:hover{
+  text-decoration: underline;
+
+}
+.footer-area ul li a{
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+
+}
+.middle ul li a {
+  margin-right: 20px;}
+
+
+.footer-area .top ul li:last-child a{
+  padding: 7px 15px 1px; 
+  color: rgb(192, 37, 37);
+  font-size: 20px;
+  border: 2px solid blue;
+  
+}
+.footer-area hr{
+  border-bottom: 1px solid #dddd;
+  margin:30px 30px 30px 0;
+  color: olive;
+}
+
+/*Start footer Section */
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Sign Up Section*/

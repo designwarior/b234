@@ -1,0 +1,160 @@
+/*Start Header Responsive Area*/
+@media screen and (max-width: 980px){
+  
+  .container{
+    width: 90%;
+  }.logo-area{
+    width: 60%;
+    float:none;
+    text-align: center;
+  }
+  .login-area{
+    width:455px;
+    margin: 15px auto;
+    float: none;
+    
+
+  }
+  .login-area form{
+    float:none;
+  } 
+  .login-area form{
+    width: 100%
+  }
+  .logo-area img{
+    width:180px;
+    float: left;
+    margin-top:50px;
+  }
+  .email label, .password{
+    margin-top: 30px;
+  }
+  .right-area input[type="text"], 
+  .right-area input[type="password"] {
+    font-size: 14px;
+    width: 96%;
+  }
+  .login-area .email{
+    float: left;
+    margin-left: 20px;
+    display: inline;
+  }
+  .login-area .password{
+    float: left;
+    margin-left: 20px;
+    display: inline;
+  }
+  .login input[type="submit"] {
+    float: left;
+    background: rgb(145, 255, 0);
+    margin-left: 590px;
+    margin-bottom: 20px;
+    float:none;
+    display: inline;
+  }
+
+  /* End Header Area*/
+  /* Start Sign Up Area*/
+  .left-area{
+    width:100%;
+  }
+  .right-area{
+    width:100%;
+  }
+}
+ 
+@media screen and (max-width: 768px) {
+  .logo-area img{
+    float: none;
+    margin-left: 220px;
+    margin-bottom: 0;}
+    .login input[type="submit"] {
+      background: rgb(0, 68, 255);
+      margin-left: 500px;}
+      
+      .birth-link a {
+        color: rgb(60, 0, 255);
+        font-size: 16px;
+        text-decoration: none;
+        width: 45px;
+        padding: 0px;
+        margin-left: 25px;
+        line-height: 1;
+      }
+      .birth-link a:hover{
+        margin-top:10px;
+        border: 2px slid salmon;
+        background-color: yellow;
+        color: red;
+      }
+
+}
+@media screen and (max-width:480px) {
+  .logo-area img{
+    float: none;
+    margin-left: 120px;
+    margin-bottom: 0;}
+    .login-area {
+      margin: 0 auto;
+      float: none;
+    }
+    .login input[type="submit"] {
+      background: rgb(16, 182, 16);
+      margin-left: 210px;
+    }
+    .login-area input {
+      margin-right: 10px;
+    }
+    .login-area .password {
+      float: left;
+      margin-left: 2px;
+      display: inline;
+    }
+    .login-area input {
+      margin-right: -9px;
+    }
+
+    .login input[type="submit"] {
+      background: rgb(16, 182, 16);
+      margin-left: 338px;
+    }
+    .login input:hover[type="submit"] {
+      background: rgb(230, 7, 178);
+      margin-left: 338px;
+      color:#ddd;
+    }
+    .birth-link a {
+      color: rgb(60, 0, 255);
+      font-size: 14px;
+      text-decoration: none;
+      width: 45px;
+      padding: 0px;
+      margin-left: 0px;
+      line-height: 1;
+    }
+    .birth-link {
+      margin: 5px 15px;
+        margin-top: 0;
+        margin-right: 1px;
+        margin-bottom: 5px;
+        margin-left: 1px;
+    }
+    .footer-area .top ul li:last-child a {
+      padding: 0px;
+      color: rgb(34, 29, 29);
+      font-size: 20px;
+      border: none;
+      padding-top: 10px;
+      display: inline;
+    }
+
+
+}
+/*End Header Responsive Area*/
+/*Start Sign Up Responsive Area*/
+
+
+
+
+
+/*End Sign Up Responsive Area*/
